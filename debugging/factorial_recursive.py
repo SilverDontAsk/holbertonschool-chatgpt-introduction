@@ -2,6 +2,15 @@
 import sys
 
 def factorial(n):
+    """
+    Calculates the factorial of a given number.
+
+    Parameters:
+    - n: an integer for which factorial is to be calculated
+
+    Returns:
+    - The factorial of n.
+    """
     if n == 0:
         return 1
     else:
